@@ -1,0 +1,45 @@
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(105, 48, 1);
+    font-size: 20px;
+    text-align: center;
+    background-image: url("minimalista.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+body {
+    background-color: rgb(255, 240, 154);
+}
+p {
+    font-size: 14px;
+}
+button{
+    
+    border-radius: 10px; /*borda arrendondada*/
+    padding: 10px; 
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(105, 48, 1);
+    
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    background-color: rgb(255, 241, 163);
+    
+}
+
+.nav-bar a:hover{
+    background-color: red;
+    transition: 0,3s;
+}
+
+
+footer{
+    background-color: orangered;
+}
